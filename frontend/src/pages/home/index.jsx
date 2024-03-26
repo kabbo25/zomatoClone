@@ -1,8 +1,16 @@
+import Header from "../../components/common/header/index.jsx";
+import TabOptions from "../../components/common/tabOptions/index.jsx";
+import Footer from "../../components/common/footer/index.jsx";
 
 const Homepage = () => {
     return (
         <div>
-            <h1>Homepage</h1>
+            <Header />
+            {
+                // A function that will decide the route to render
+            }
+            <TabOptions />
+            <Footer />
         </div>
     )
 }
